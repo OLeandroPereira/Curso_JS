@@ -4,13 +4,12 @@
 }
 
 body {
-    background:rgb(82, 82, 213);
+    background:rgb(231, 234, 190);
     font: normal 15pt arial;
     color: black;
     width: 100vw;
     height: 100vh;
     margin: auto;
-    padding: 15px;
 }
 
 header {
@@ -19,26 +18,32 @@ header {
     padding: 2rem;
 }
 
+h1 {
+    color: rgb(128, 124, 124);
+    
+}
+
 section {
-    background: white;
+    background: rgb(245, 246, 242);
     border-radius: 10px;
     padding: 15px;
-    width: 500px;
+    width: 550px;
     margin: auto;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.484);
 }
 
+
 img {
     display: flex;
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    text-align: center;
+    width: 250px;
+    height: 250px;
     margin: auto;
+    padding: 2rem;
 }
 
 footer {
-    color: white;
+    color: rgb(128, 124, 124);
     text-align: center;
     font-style: italic;
     padding: 1.5rem;
