@@ -12,28 +12,36 @@
         <h1>Verificador de Idade</h1>
     </header>
     <section>
-        <div>
-           <p>Ano de Nascimento:
-                <input  type="number" name="txtano" id="txtano" min="0">
-            </p> 
-            <p>Sexo:
-                <input type="radio" name="radsex" id="mas" checked>
-                <label for="mas">Masculino</label>
-                <input type="radio" name="radsex" id="fem">
-                <label for="fem">Feminino</label>
-            </p>
-            <p>
-                <input type="button" value="Verificar" onclick="verificar()">
-            </p>
+        
+
+        <div class="container">
+            
+                <p class="ano-nasc">Ano de Nascimento:
+                    <input class="box-nasc" type="number" name="txtano" id="txtano" min="0">
+                    <div id="informacao"></div>
+                </p> 
+                
+                <p class="sexo">Sexo:
+                    <input type="radio" name="radsex" id="mas" checked>
+                    <label for="mas">Masculino</label>
+                    <input type="radio" name="radsex" id="fem">
+                    <label for="fem">Feminino</label>
+                </p>
+           
+                <p class="botao">
+                    <input class="verificar" type="button" value="Verificar" onclick="verificar()">
+                </p>
+            
+                <div id="res">
+                    Preencha os dados acima para ver o resultado!
+                </div>
         </div>
-        <div id="res">
-            Preencha os dados acima para ver o resultado!
-        </div>
+        
 
         
     </section>
     <footer>
-        <p>&copy; le_codigo</p>
+        <a href="http://www.instagram.com/le_codigo/" target="_blank" rel="noopener noreferrer">&copy; le_codigo</a>
     </footer>
     <script src="script.js"></script>
 </body>

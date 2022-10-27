@@ -4,7 +4,7 @@
 }
 
 body {
-    background:rgb(231, 234, 190);
+    background:rgb(225, 243, 219);
     font: normal 15pt arial;
     color: black;
     width: 100vw;
@@ -19,7 +19,7 @@ header {
 }
 
 h1 {
-    color: rgb(128, 124, 124);
+    color: rgb(255, 119, 0);
     
 }
 
@@ -27,9 +27,40 @@ section {
     background: rgb(245, 246, 242);
     border-radius: 10px;
     padding: 15px;
-    width: 550px;
+    width: 500px;
     margin: auto;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.484);
+}
+
+
+
+#informacao {
+    color: rgb(255, 0, 0);
+}
+
+.box-nasc {
+    width: 5rem;
+    height: 1.2rem;
+    border-radius: .2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.verificar {
+    border-radius: 10rem;
+    background: rgb(13, 0, 255);
+    width: 10rem;
+    padding: .5rem;
+    color: #fff;
+    border: none;
+    font-size: 1.5rem;
+    margin: 3rem 0 3rem;
+    cursor: pointer;
+}
+
+.verificar:hover {
+    transition: all  .5s ease-in-out;
+    background-color: rgb(255, 119, 0);
 }
 
 
@@ -39,12 +70,17 @@ img {
     width: 250px;
     height: 250px;
     margin: auto;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 footer {
     color: rgb(128, 124, 124);
     text-align: center;
     font-style: italic;
-    padding: 1.5rem;
+    padding: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 119, 0);
 }

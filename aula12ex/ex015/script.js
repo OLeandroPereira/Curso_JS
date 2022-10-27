@@ -6,7 +6,7 @@ function verificar(){
 
 
     if(fano.value.length == 0 || Number(fano.value) > ano) {
-        window.alert('[Erro] Verifique os dados e tente novamente')
+        window.alert('[ERRO] Informe o ano de nascimento, por Favor!')
     } else {
         var fsex = document.getElementsByName('radsex')
         var idade = ano - Number(fano.value)
@@ -14,15 +14,23 @@ function verificar(){
         var img = document.createElement('img')
         var fasevida = ' '
         img.setAttribute('id', 'foto')
-
+        
 
 
         if(fsex[0].checked){
             genero = 'Masculino'
             document.body.style.background=`#83c1e0`
+            var h1 = document.getElementsByTagName('h1')[0]
+            h1.style.color = 'white'
+            var h1 = document.getElementsByTagName('a')[0]
+            h1.style.color = 'white'
         } else if (fsex[1].checked){
             genero = 'Feminino'
             document.body.style.background=`#e686cf`
+            var h1 = document.getElementsByTagName('h1')[0]
+            h1.style.color = 'yellow'
+            var h1 = document.getElementsByTagName('a')[0]
+            h1.style.color = 'yellow'
         }
 
 
