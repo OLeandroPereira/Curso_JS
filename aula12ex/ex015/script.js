@@ -48,9 +48,9 @@ function verificar(){
         var foto_res = `foto_${fasevida}_${genero.toLowerCase()}.jpg`
         img.setAttribute('src', foto_res)
         res.style.textAlign = 'center'
-        res.innerHTML = `Detectamos uma pessoa do gênero ${genero} com ${idade} anos.`
+        res.innerHTML = `Detectamos uma pessoa do sexo ${genero} com ${idade} anos.`
         if (idade == 1) {
-            res.innerHTML = `Detectamos um bebê do gênero ${genero} com ${idade} ano.` 
+            res.innerHTML = `Detectamos um bebê do sexo ${genero} com ${idade} ano.` 
         }
         
         res.appendChild(img)
