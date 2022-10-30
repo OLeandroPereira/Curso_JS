@@ -16,6 +16,7 @@ body {
 header {
     color: white;
     text-align: center;
+    margin-bottom: 1.5rem;
 }
 
 section {
@@ -27,8 +28,22 @@ section {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.484);
 }
 
+#txtn {
+    margin-bottom: 1rem;
+}
+
+.box1 {
+    margin-left: .3rem;
+}
+
+textarea {
+    width: 11rem;
+    height: 13rem;
+}
+
 footer {
     color: white;
     text-align: center;
     font-style: italic;
+    margin-top: 1.5rem;
 }

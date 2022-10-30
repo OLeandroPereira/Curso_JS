@@ -32,12 +32,6 @@ section {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.484);
 }
 
-
-
-#informacao {
-    color: rgb(255, 0, 0);
-}
-
 .box-nasc {
     width: 5rem;
     height: 1.2rem;
