@@ -4,7 +4,7 @@
 }
 
 body {
-    background:rgb(82, 82, 213);
+    background:rgb(181, 181, 242);
     font: normal 15pt arial;
     color: black;
     width: 100vw;
@@ -16,6 +16,7 @@ body {
 header {
     color: white;
     text-align: center;
+    margin: 2rem 0 2rem;
 }
 
 section {
@@ -48,4 +49,5 @@ footer {
     color: white;
     text-align: center;
     font-style: italic;
+    margin-top: 2rem;
 }
