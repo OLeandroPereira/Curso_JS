@@ -4,11 +4,11 @@
 }
 
 body {
-    background:rgb(181, 181, 242);
+    background:rgb(82, 82, 213);
     font: normal 15pt arial;
     color: black;
-    width: 80vw;
-    height: 80vh;
+    width: 100vw;
+    height: 100vh;
     margin: auto;
     padding: 15px;
 }
@@ -16,7 +16,7 @@ body {
 header {
     color: white;
     text-align: center;
-    margin: 2rem 0 2rem;
+    margin: 2rem;
 }
 
 section {
@@ -28,26 +28,13 @@ section {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.484);
 }
 
-.botao {
-    border-radius: 10rem;
-    background: rgb(13, 0, 255);
-    width: 7rem;
-    padding: .5rem;
-    color: #fff;
-    border: none;
-    font-size: 1.0rem;
-    margin: 1.5rem 0 3rem;
-    cursor: pointer;
-}
-
-.botao:hover {
-    transition: all  .5s ease-in-out;
-    background-color: rgb(255, 119, 0);
+#selres {
+    width: 10rem;
 }
 
 footer {
     color: white;
     text-align: center;
     font-style: italic;
-    margin-top: 2rem;
+    margin: 2rem;
 }
